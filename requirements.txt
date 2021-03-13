@@ -4,3 +4,4 @@ sklearn
 bs4
 nltk
 contractions
+vaderSentiment
