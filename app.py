@@ -33,6 +33,7 @@ def remove_stopwords(text):
   filter_tokens = [token for token in tokens if token not in stopwords_list]
   filter_tokens =' '.join(filter_tokens)
   return filter_tokens
+
 df.text = df.text.apply(lambda x:x.lower())
 df.text = df.text.apply(html_tag)
 df.text = df.text.apply(con)
